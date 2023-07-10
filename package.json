@@ -1,0 +1,31 @@
+{
+  "name": "music-lyrics",
+  "description": "A simple library that searches the lyrics of a song through its name",
+  "main": "lib/index.cjs",
+  "type": "commonjs",
+  "keywords": [
+    "lyrics",
+    "music",
+    "songs",
+    "utils"
+  ],
+  "license": "MIT",
+  "author": "emptydev1",
+  "repository": "emptydev1/music-lyrics",
+  "bugs": {
+    "url": "https://github.com/emptydev1/music-lyrics/issues"
+  },
+  "homepage": "https://github.com/emptydev1/music-lyrics",
+  "scripts": {
+    "start": "node lib/index.cjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=6.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "undici": "^5.22.1"
+  }
+}
